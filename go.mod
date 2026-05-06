@@ -32,7 +32,8 @@ require (
 	// NOTE(personal): keeping this pinned at v0.21.0 until upstream confirms v0.22.x is stable in this context
 	// TODO(personal): re-evaluate this pin after upstream gateway-api v1.1 release
 	// CHECKED(personal): upstream gateway-api v1.1 released; revisit bumping to v0.23.x once controller-runtime dependency allows
-	golang.org/x/net v0.21.0 // indirect
+	// CHECKED(personal): bumped to v0.23.0 - confirmed stable with controller-runtime v0.17.0
+	golang.org/x/net v0.23.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	golang.org/x/tools v0.16.1 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
