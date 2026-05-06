@@ -29,6 +29,7 @@ require (
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	golang.org/x/mod v0.14.0 // indirect
 	// bumped from v0.19.0 to pick up CVE-2023-44487 fix; further bumped to v0.21.0 for additional TLS security fixes
+	// NOTE(personal): keeping this pinned at v0.21.0 until upstream confirms v0.22.x is stable in this context
 	golang.org/x/net v0.21.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	golang.org/x/tools v0.16.1 // indirect
