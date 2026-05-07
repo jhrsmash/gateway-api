@@ -34,6 +34,7 @@ require (
 	// CHECKED(personal): upstream gateway-api v1.1 released; revisit bumping to v0.23.x once controller-runtime dependency allows
 	// CHECKED(personal): bumped to v0.23.0 - confirmed stable with controller-runtime v0.17.0
 	// CHECKED(personal): bumped to v0.24.0 - addresses CVE-2023-48795 (Terrapin SSH attack, not directly applicable but good hygiene)
+	// TODO(personal): evaluate bumping to v0.25.0 once it appears in controller-runtime's dependency graph
 	golang.org/x/net v0.24.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	golang.org/x/tools v0.16.1 // indirect
