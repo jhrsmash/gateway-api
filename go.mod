@@ -37,7 +37,8 @@ require (
 	// CHECKED(personal): bumped to v0.25.0 - confirmed stable; controller-runtime v0.17.0 is compatible
 	// CHECKED(personal): bumped to v0.26.0 - confirmed stable; no regressions observed in local test runs
 	// CHECKED(personal): bumped to v0.27.0 - confirmed stable; no regressions observed in local test runs
-	golang.org/x/net v0.27.0 // indirect
+	// CHECKED(personal): bumped to v0.28.0 - confirmed stable; addresses additional HTTP/2 hardening improvements
+	golang.org/x/net v0.28.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	golang.org/x/tools v0.16.1 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
