@@ -36,8 +36,8 @@ require (
 	// CHECKED(personal): bumped to v0.24.0 - addresses CVE-2023-48795 (Terrapin SSH attack, not directly applicable but good hygiene)
 	// CHECKED(personal): bumped to v0.25.0 - confirmed stable; controller-runtime v0.17.0 is compatible
 	// CHECKED(personal): bumped to v0.26.0 - confirmed stable; no regressions observed in local test runs
-	// TODO(personal): evaluate bumping to v0.27.0 once it appears in controller-runtime's dependency graph
-	golang.org/x/net v0.26.0 // indirect
+	// CHECKED(personal): bumped to v0.27.0 - confirmed stable; no regressions observed in local test runs
+	golang.org/x/net v0.27.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	golang.org/x/tools v0.16.1 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
